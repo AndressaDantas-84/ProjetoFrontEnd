@@ -1,0 +1,108 @@
+*html, body{ height:100%; margin:0; }
+
+body{
+    font-family: 'Kalam', cursive;
+    margin: auto;
+}
+  
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+header{
+    font-family: 'Cormorant', serif;
+    padding: 0.5%;
+    background-color: rgb(110, 225, 245);
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+}
+
+.menu {
+    color: lightskyblue;
+    box-sizing: border-box;
+    border-color: rgb(247, 217, 136);
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 90px;
+    text-decoration-color: rgb(253, 206, 75);
+    width: 20%;
+    padding: 0.5% 2%;
+    margin: 0.5% 5%;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: inherit;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.menu:hover{
+    color: rgb(65, 33, 6);
+    background-color: rgb(248, 182, 248);
+}
+
+.banner {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    position: relative;
+    z-index: -4;
+    left: 6%;
+    margin-top: 8%;
+    box-shadow: 10px 10px 5px rgb(191, 192, 192);
+}
+
+.banner-background{
+    position: absolute;
+    box-sizing: border-box;
+    width: 5%;
+    height: 50%;
+    z-index: -5;
+    background-color: rgb(110, 225, 245);
+}
+
+h1{
+    font-family: 'Cormorant', serif;
+    font-size: 300%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    z-index: 0;
+    color: rgb(194, 222, 245);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.contact {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    box-sizing: border-box;
+    height: 5%;
+}
+
+
+.content {
+    margin: 8%;
+    text-align: left;
+    font-size: 100%;
+}
+
+.footer, .push{
+    height: 100px;
+    width: 100%;
+    bottom: 0; 
+    z-index: -4;
+    background-color: rgba(159, 239, 241, 0.932)
+}
+
+.copyright {
+    text-align: center;
+    padding: 35px;
+}
+
